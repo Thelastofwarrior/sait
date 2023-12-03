@@ -1,0 +1,80 @@
+@media screen and (max-width: 1200px){
+    
+}
+@media screen and (max-width: 998px){
+    
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+.body {
+    overflow-x:hidden;
+}
+.warp {
+    width: 60%;
+    margin: auto;
+}
+
+.header {
+    position: relative;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    min-height: 150px; 
+    width: auto;   
+}
+
+.table_list {
+    animation:table_anime 15s linear infinite;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 40%;
+    width: 40%;
+}
+.table_child div table {
+    margin: 20px !important;
+    width: 20%;
+}
+
+@keyframes table_anime {
+    0% {
+        transform: translateX(300%);
+    }
+    100% {
+        transform: translateX(-450%);
+    }
+}
+
+.sotsial_set h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    font-size: 25px;  
+}
+.sotsial_set img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+    transition:scale(0);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.sotsial_set :hover img {
+    transform: scale(1.1);
+}
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
