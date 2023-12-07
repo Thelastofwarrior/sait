@@ -35,7 +35,7 @@
     width: 40%;
 }
 .table_child div table {
-    margin: 20px !important;
+    margin: 20px;
     width: 20%;
 }
 
@@ -47,8 +47,22 @@
         transform: translateX(-450%);
     }
 }
-
-.sotsial_set h3 {
+.forma {
+    display: block;
+    width: 25%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forma h3 {
+    display: block;
+    margin-left: 5%;
+    margin-right: 90%;
+    color: #ffffff;
+    text-align: left;
+    min-height: 250px; 
+}
+.sotsial_set h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
