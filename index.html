@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/scripts.js"></script>
 
 	<title>Юридические услуги Уфа</title>
 </head>
@@ -155,16 +156,14 @@
 					</ul>
 				</div>
 			</div>
-			<!--
-			<div class="left-book"> </div>
-			<div class="right-book"> </div>
-			-->
 			<div class="map-box">
-				<h2>Как нас найти?</h2>
-				<h3>мы находимся по адресу:</h3>
-				<script type="text/javascript" charset="utf-8" async
-					src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae1762da0e7842c325156dcf154b4fe16fc8c898499439c6e7b7287044bdd0527&amp;width=723&amp;height=470&amp;lang=ru_RU&amp;scroll=true">
-					</script>
+				<h2 onclick="openMap()">Как нас найти?</h2>
+				<div class="map-cont">
+					<h3>мы находимся по адресу:</h3>
+					<script type="text/javascript" charset="utf-8" async
+						src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae1762da0e7842c325156dcf154b4fe16fc8c898499439c6e7b7287044bdd0527&amp;width=723&amp;height=470&amp;lang=ru_RU&amp;scroll=true">
+						</script>
+				</div>
 			</div>
 
 		</main>

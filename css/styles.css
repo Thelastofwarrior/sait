@@ -33,6 +33,59 @@ body {
 	width: 75%;
 	color: #5dd;
 	margin-bottom: 10px;
+	transition: .5s;
+}
+
+.map-box h2:hover {
+	cursor: pointer;
+	transform: scale(1.5);
+	transition: .5s;
+}
+
+.map-cont {
+	display: none;
+	opacity: 0;
+	animation: hideSmoothFlow 1s ease-in-out;
+}
+
+.map-cont.open {
+	display: block;
+	opacity: 1;
+	animation: smoothFlow 1s ease-in-out;
+}
+
+@keyframes smoothFlow {
+	0% {
+		display: none;
+		opacity: 0;
+	}
+
+	1% {
+		display: block;
+		opacity: 0;
+	}
+
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}
+
+@keyframes hideSmoothFlow {
+	0% {
+		display: block;
+		opacity: 1;
+	}
+
+	1% {
+		display: block;
+		opacity: 1;
+	}
+
+	100% {
+		display: none;
+		opacity: 0;
+	}
 }
 
 .table {
